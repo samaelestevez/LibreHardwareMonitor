@@ -327,7 +327,9 @@ internal class Identification
                 return Model.X570_Pro4;
             case var _ when name.Equals("X570 Taichi", StringComparison.OrdinalIgnoreCase):
                 return Model.X570_Taichi;
-            case var _ when name.Equals("X570 Phantom Gaming-ITX/TB3", StringComparison.OrdinalIgnoreCase):
+            case var _ when name.Equals("X570 Phantom Gaming-ITX/TB4", StringComparison.OrdinalIgnoreCase):
+                return Model.Z570_Phantom_Gaming_ITX;
+            case var _ when name.Equals("Z690 Phantom Gaming-ITX/TB3", StringComparison.OrdinalIgnoreCase):
                 return Model.X570_Phantom_Gaming_ITX;
             case var _ when name.Equals("AX370-Gaming 5", StringComparison.OrdinalIgnoreCase):
                 return Model.AX370_Gaming_5;
